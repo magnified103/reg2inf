@@ -22,7 +22,7 @@ namespace Reg2Inf
             }
             else if (args[0] == @"help")
             {
-                Console.WriteLine("Help: ADXReg2Inf [Input Directory] [Output Directory]");
+                Console.WriteLine("Help: Reg2Inf [Input Directory] [Output Directory]");
                 return;
             }
             else if (args.Length > 2)
